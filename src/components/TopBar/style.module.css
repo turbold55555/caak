@@ -1,0 +1,67 @@
+.TopBar{
+    /* background-color: red; */
+    display: flex;
+    width: 100%;
+    height: 90px;
+     justify-content: space-between;
+     align-items: center;
+     padding-left: 50px; 
+     /* padding-right: 80px; */
+     /* background-color: red; */
+}
+.SearchInput {
+    width: 900px;
+    height: 60px;
+    font-size: 18px;
+}
+
+.Search{
+    /* background-color: green; */
+    display: flex;
+    width: 1000px;
+    height: 50px;
+}
+.Search input {
+    width: 800px;
+    border: solid 2px gray;
+    /* margin: 0;
+    padding: 0; */
+}
+.Search button {
+    background-color: black;
+    margin-left: 0;
+    padding: unset;
+    width: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: -4px;
+    
+}
+
+.btnsearch img {
+     background-color: black;
+}
+.TopRight{
+    display: flex;
+    /* margin: 10px; */
+    justify-content: center;
+    margin-right: 82px;
+}
+.TopRight img {
+  margin-right: 20px;
+}
+.TopRight button {
+    font-size: 20px;
+    background-color: black;
+    color: white;
+    border: none;
+    width: 120px;
+}
+.TopRight button:hover {
+    font-size: 20px;
+    background-color: rgb(138, 136, 136);
+    /* color: rgb(77, 35, 35); */
+    border: none;
+    width: 120px;
+}

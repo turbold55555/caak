@@ -1,0 +1,39 @@
+.InfoDetail {
+    /* background-color: red; */
+    cursor: pointer;
+    margin-top: 20px;
+    width: 390px;
+    height: 220px;
+    border: 1px solid black;
+    border-radius: 15px;
+    /* background-color: red; */
+    display: flex;
+    /* flex-flow: row; */
+    /* flex: 0 1 auto; */
+    margin-right: 30px;
+}
+.infoTitle{
+    display: flex;
+justify-content: flex-start;
+align-items: center;
+margin: 8px;
+}
+.infoTitle img{
+margin-right: 10px;
+}
+.Indfos{
+    
+    /* margin: 20px; */
+    margin-right: 8px;
+    margin-left: 10px;
+    /* width: 200px; */
+    /* margin: auto; */
+}
+.infos2 img{
+    /* width:400px; */
+    height: 160px;
+    margin: 0;
+    margin-right: 10px;
+    margin-top: 10px;
+    /* background-color: green; */
+}

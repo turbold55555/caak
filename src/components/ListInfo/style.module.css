@@ -1,0 +1,31 @@
+.ListInfo{
+    width: 380px;
+    height: 80px;
+    /* background-color: teal; */
+    border: 2px solid gray;
+    padding: 3px;
+    margin-bottom: 15px;
+}
+.NameImage{
+    /* padding: 10px; */
+    display: flex;
+    /* justify-content":; */
+    padding: 2px 10px;
+    align-items: center;
+    
+}
+.NameImage img {
+        width: 35px;
+}
+.NameImage span {
+    color: gray;
+    font-size: 15px;
+    font-weight: 300;
+    font-weight: 800;
+}
+.texts{
+    padding: 5px;
+}
+.ListInfos {
+    margin-top: 40px;
+}

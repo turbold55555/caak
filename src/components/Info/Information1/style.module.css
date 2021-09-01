@@ -1,0 +1,29 @@
+.infoTitle{
+    /* background-color: red; */
+    display: flex;
+    justify-content:space-between;
+    /* margin: auto; */
+
+    /* align-items:flex-start */
+}
+.infoContaner{
+    margin-top: 30px;
+    margin-left: 200px;
+    margin-right: 250px;
+}
+.InfoText {
+    font-size: large;
+    font-size: 38px;
+    font-weight: 500;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-right: 65px;
+}
+.infoTitle button {
+     border: none;
+     background-color: white
+}
+.InfoContainer{
+    display: flex;
+    /* flex-direction: row; */
+    flex-flow: wrap;
+}

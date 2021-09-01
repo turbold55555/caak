@@ -1,0 +1,24 @@
+.Carousel{
+    background-color: red;
+    width: 400px;
+    height: 520px;
+    position:fixed;
+top:0;
+left:0;
+}
+.Carousel img{
+    width: 600px;
+    height: 650px;
+    /* background-color: green; */
+}
+.CarouselContainer{
+
+    width: 320px;
+    height: 360px;
+    padding: 30px;
+    margin: 20px; 
+    box-sizing: border-box;
+    /* background-color: aquamarine; */
+   border: 1px solid gray;
+    border-radius: 15px; 
+}

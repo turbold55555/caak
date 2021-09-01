@@ -1,0 +1,21 @@
+.Header{
+    margin-left: 100px;
+    margin-right: 100px;
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+    /* margin: auto; */
+}
+/* .Header img {
+    width: 50px;
+    background-color: red;
+} */
+.BlackIcon{
+    /* background-color: blue; */
+    display: flex;
+    position: relative;
+    align-items: flex-end;
+    justify-content: flex-end;
+    margin-right: 30px;
+    /* margin-right: auto; */
+}

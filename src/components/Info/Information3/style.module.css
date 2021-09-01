@@ -1,0 +1,55 @@
+.infoTitle{
+    /* background-color: red; */
+    display: flex;
+    justify-content:space-between;
+    margin: auto;
+
+    /* align-items:flex-start */
+}
+.infoContaner{
+
+    margin-top: 30px;
+    margin-left: 200px;
+    margin-right: 250px;
+}
+.InfoText {
+    font-size: large;
+    font-size: 35px;
+    font-weight: 500;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-right: 65px;
+}
+.infoTitle button {
+     border: none;
+     background-color: white
+}
+.InfoContainer{
+    display: flex;
+    /* flex-direction: row; */
+    flex-flow: wrap;
+}
+
+.Info2 {
+    display: flex;
+}
+.Info2 span {
+    margin-right: 20px;
+    width: 125px;
+    
+}
+.Info2 div {
+    margin-right: 20px;
+    width: 130px;
+    margin-top: 20px;
+    height: 30px;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 15px;
+}
+.Info2 img {
+  width: 18px;
+  margin-right: 8px;
+}

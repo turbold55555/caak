@@ -1,0 +1,203 @@
+.infoConainer{
+    display: flex;
+    /* flex-direction: row; */
+    width: 65%;
+    align-self: center;
+    margin-left: 150px;
+    /* margin-right: 150px; */
+    /* padding: 10px 60px; */
+    margin-top: 20px;
+    border: 1px solid black;
+    /* width: 1090px; */
+    /* height: 900px; */
+    margin-bottom: 40px;
+    border-radius: 15px;
+    box-sizing: border-box;
+    position:fixed;
+    z-index: 500;
+    background-color: white;
+    width: 70%;
+    height: 88%;
+    border: 1px solid black;
+    top:1%;
+    /* left: 5%; */
+    /* margin-left: 220px;
+    margin-right: 150px; */
+    transition: all 0.3s ease-out;
+    /* margin: auto; */
+}
+.InfoLeft{
+    width: 60%;
+    margin-right: 60px;
+    flex-direction: column;
+    display: flex;
+    margin-left: 20px;
+    margin-top: 30px;
+    justify-content: center;
+    align-items: center;
+}
+/* .InfoLeft img {
+    margin-right: 20px;
+} */
+.InfoTitle{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    /* width: 500px; */
+    /* margin-left: 20px; */
+    padding: unset;
+    margin-left: 30px;
+}
+.InfoDetail{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    /* width: 500px; */
+    /* text-align: center; */
+    /* margin-left: 20px; */
+    margin-top: 20px;
+    margin-left: 30px;
+}
+.InfoRight{
+    /* margin-left: 40px; */
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    /* background-color: tomato; */
+    /* width: 1600px; */
+    /* border-left: 1px solid black; */
+}
+.Dot{
+    /* margin-bottom: 90px;
+    margin-left: 60px; */
+}
+.RightIcon {
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    margin-left: 20px;
+}
+.RightIcon img{
+    width: 120px;
+    height: 200px;
+}
+.IkonTitle {
+    margin-left: 30px;
+}
+.follow{
+    width: 120px;
+    height: 20px;
+    border: 1px solid black;
+    border-radius: 15px;
+    background-color: black;
+    color: white;
+    
+    margin-bottom: 40px;
+    justify-content: center;
+    align-items: center;
+}
+.follow span{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
+    /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
+    text-align: center;
+}
+.IkonMn{
+    font-size: 27px;
+    width: 120px;
+}
+.icons{
+    display: flex;
+}
+.icons div {
+    width: 117px;
+    display: flex;
+    height: 40px;
+    border: 1px solid gray;
+    border-right: none;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    /* width: 100px; */
+    /* border-left: none; */
+}
+.icons img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 23px;
+  /* width: 30px; */
+    /* border-left: none; */
+}
+.mystyle{
+    /* background-color: green; */
+    /* width: 180px; */
+    margin-top: 20px;
+    width: 350px;
+    margin: 10px;
+    border: 2px solid gray;
+        /* margin-right: 10px; */
+}
+.InfoBottom{
+    /* margin-top: 90px; */
+    margin-left: 240px;
+    margin-right: 400px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.InfoBottom button{
+    /* background-color: red; */
+    /* width: 220px;
+    height: 30px;
+    border: none;
+    color: gray;
+    background-color: white;
+    font-size: 18px;
+    font-weight: 500; */
+}
+.nowDayes1{
+    /* background-color: red; */
+    width: 100px;
+    height: 35px;
+    border: 1px solid black;
+    border-radius: 15px;
+    background-color: yellow;
+    margin-top: 180px;
+}
+.nowDayes1 span{
+    /* background-color: red; */
+    width: 100px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.nowDayes button {
+    width: 220px;
+    height: 30px;
+    border: none;
+    color: gray;
+    background-color: white;
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 110px;
+    display: flex;
+    /* justify-content: flex-end; */
+    align-items: flex-end;
+    margin-left: 400px;
+    }
+    .Carosel { 
+        background-color: green;
+    color: red;}
+.CloseIcon{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-right: 600px;
+    padding: 10px;
+    
+}
